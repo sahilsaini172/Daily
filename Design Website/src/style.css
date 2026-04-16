@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+:root {
+  --primary: #000000;
+  --text: #111111;
+  --background: #bbc1dd;
+  --background-variant: #2b2933;
+  --accent: #1841f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans", sans-serif;
+  border: 1px solid;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+button {
+  color: white;
+  background: #000;
+  border-radius: 12px;
+  border: none;
+  padding: 16px 56px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.navbar {
+}
+
+#hero div {
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#hero h1 {
+  width: 80%;
+}
+
+#hero p {
+  font-style: italic;
+  line-height: 32px;
+  width: 80%;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#section1 {
+  padding: 48px 32px;
+}
+
+#section1 :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#section1 :nth-child(1) p {
+  font-style: italic;
+  line-height: 32px;
+  width: 77%;
+  font-size: 18px;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#section1 .capabilites {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0px 32px;
+  background-color: white;
+  border-top: 8px solid var(--accent);
+  padding: 16px;
+  width: 100%;
+}
+.card h3 {
+  width: 100%;
+  text-align: left;
+}
